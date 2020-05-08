@@ -50,7 +50,7 @@
                             @endif
                         @else
                             <li class="nav-item dropdown">
-                                <img src="../public/storage/{{ Auth::user()->profile_picture }}" style="width:50; height:50px; float:left; border-radius:50%; margin-right:25px;">
+                                <img src="../storage/{{ Auth::user()->profile_picture }}" style="width:50; height:50px; float:left; border-radius:50%; margin-right:25px;">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
